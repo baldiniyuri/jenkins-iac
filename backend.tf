@@ -1,7 +1,7 @@
 terraform {
   backend "s3" {
     bucket = "baldini-vorx-terraform"
-    key    = "vorx-network.tfstate"
+    key    = "jenkins-server.tfstate"
     region = "us-east-1"
   }
 }
